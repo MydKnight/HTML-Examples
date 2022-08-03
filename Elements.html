@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Example of HTML Elements with Base Styles Applied</title>
 </head>
-<body>
+<>
     <p>
         This is a Paragraph
         
@@ -22,6 +22,9 @@
 
         Ut euismod egestas tellus id cursus. Nunc gravida, purus condimentum mollis congue, orci lacus euismod quam, sed iaculis velit urna quis nunc. Nulla elementum vehicula enim, vitae molestie neque tincidunt sed. Praesent quis volutpat orci, sit amet auctor velit. Quisque fermentum urna rutrum libero feugiat, ut rutrum justo dapibus. Nunc sagittis lorem augue, id aliquam dui euismod at. Suspendisse volutpat mollis velit, sed tincidunt urna ullamcorper nec. Suspendisse leo eros, elementum ac arcu tincidunt, pharetra cursus turpis. Vestibulum dolor nisl, vulputate ut elit eget, tempus tempor quam. Sed fermentum nunc sed diam ornare, vel pulvinar orci ullamcorper. Etiam sollicitudin convallis sem id vestibulum. Mauris luctus suscipit odio, accumsan convallis leo tincidunt sit amet. Donec nec laoreet nunc, at euismod libero. Pellentesque tempor nunc vitae nunc molestie vestibulum.
     </article>
+
+    <p>This is an anchor Link</p>
+    <a href="https://www.google.com">Google</a>
 
     <p>These are the common buttons: 
         <button type="button">Standard Button</button>
@@ -56,12 +59,56 @@
         </li>
     </ol>
 
+    <p>This is a select drop down</p>
+    <select name="firstSelect" id="firstSelect">
+        <option value="Item One">Item One</option>
+        <option value="Item Two">Item Two</option>
+        <option value="Item Three">Item Three</option>
+    </select>
+
     <p>This is a nav section. Alone it does nothing, other than define that what is in it should be navigation</p>
     <nav>
         Navigation Element one
         Navigation Element two
     </nav>
 
-    <p>This is a Nav section </p>
+    <p>This is a Nav section where we put a list of navigation elements</p>
+    <nav>
+        <ul>
+            <li>
+                Nav One
+            </li>
+            <li>
+                Nav Two
+            </li>
+            <li>
+                Nav Three
+            </li>
+        </ul>
+    </nav>
+
+    <p>This is a nav section where the "navigation" is an unordered list of links</p>
+    <nav>
+        <ul>
+            <li>
+                <a href="#">Nav One</a>
+            </li>
+            <li>
+                <a href="#">Nav Two</a>
+            </li>
+            <li>
+                <a href="#">Nav Three</a>
+            </li>
+        </ul>
+    </nav>
+
+    <p>This is a nav section where the "navigation" is a select drop down</p>
+    <nav>
+        <select name="selectNav" id="selectNav">
+            <option value="Nav One">Item One</option>
+            <option value="Nav Two">Item Two</option>
+            <option value="Nav Three">Item Three</option>
+        </select>
+    </nav>
 </body>
 </html>
